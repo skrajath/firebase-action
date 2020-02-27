@@ -59,7 +59,7 @@ jobs:
         with:
           name: dist
       - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
+        uses: skrajath/firebase-action@master
         with:
           args: deploy --only hosting
         env:
